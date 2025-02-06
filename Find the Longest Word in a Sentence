@@ -1,0 +1,6 @@
+def longest_word(sentence):
+    words = sentence.split()
+    return max(words, key=len)
+
+sentence = input("Enter a sentence: ")
+print(f"The longest word in the sentence is: {longest_word(sentence)}")
